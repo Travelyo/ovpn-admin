@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: build latest images for release
-    runs-on: ubuntu-latest
+    runs-on: moverunner
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
